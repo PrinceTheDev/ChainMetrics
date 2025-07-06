@@ -8,6 +8,7 @@ charset-normalizer==3.4.2
 click==8.2.1
 decouple==0.0.7
 Django==5.2.4
+django-cors-headers==4.7.0
 djangorestframework==3.16.0
 drf-spectacular==0.28.0
 gitdb==4.0.12
