@@ -2,11 +2,18 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework import response
 from rest_framework.decorators import api_view
+from drf_spectacular.utils import extend_schema
 import requests
 from decouple import config
+from .serializers import CryptocurrencySerializer
 
 
 
+@extend_schema(
+    responses={200: CryptocurrencySerializer(many=True)},
+    description="Fetch top 10 cryptocurrencies from CoinGecko API",
+    summary="Get Top 10 Cryptocurrencies"
+)
 @api_view(['GET'])
 def chainMetrics(request):
     """
@@ -22,7 +29,7 @@ def chainMetrics(request):
         "order": "market_cap_desc",
         "per_page": 10,
         "page": 1,
-        "price_change_percentage": "1h,24h,7d,30d",
+        "price_change_percentage": "1h,24h",
         "sparkline": False,
         "locale": "en",
         "precision": "full"
