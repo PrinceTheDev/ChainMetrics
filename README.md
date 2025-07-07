@@ -23,6 +23,30 @@
 - **Error Handling**: Robust error management and user feedback
 - **Caching**: Optimized data fetching with smart caching
 
+## 📸 Screenshots
+
+### 🏠 Dashboard Overview
+![Dashboard Overview](assets/images/dashboard_overview.png)
+
+### 📊 Market Overview & Data Table
+![Market Overview](assets/images/market_overview.png)
+
+### 📈 Interactive Charts
+![Price Charts](assets/images/price_chart.png)
+
+### 📈 Interactive Charts
+![Market Cap](assets/images/market_cap.png)
+
+### 📈 Interactive Charts
+![24h Change](assets/images/daily_changes.png)
+
+### 📈 Interactive Charts
+![Market Volume](assets/images/market_volume.png)
+
+### 🔍 Detailed Analytics
+![Detailed Analytics](assets/images/detailed_metrics_.png)
+
+
 ## 🏗️ Architecture
 
 ```
