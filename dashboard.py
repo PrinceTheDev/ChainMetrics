@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Configuration
-API_URL = "http://localhost:8000/api/v1/chain-metrics/" 
+API_URL = "https://chain-metrics.onrender.com/api/v1/chain-metrics/" 
 
 @st.cache_data(ttl=60)  # Cache for 1 minute
 def fetch_crypto_data():
