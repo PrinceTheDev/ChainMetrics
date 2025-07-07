@@ -2,6 +2,12 @@
 
 **ChainMetrics** is a comprehensive cryptocurrency analytics web application that provides real-time market data through an elegant dashboard interface. Built with Django REST Framework and Streamlit library, it fetches live cryptocurrency data from the CoinGecko API and presents it in an interactive, user-friendly format.
 
+## 🌐 Live Demo
+
+Check out the live ChainMetrics dashboard:
+
+- [ChainMetrics Live Dashboard](https://chainmetrics-g4mift8ynpwetrcxnuwwa2.streamlit.app/) — Explore real-time cryptocurrency analytics and interactive charts.
+
 ## ✨ Features
 
 ### 🔥 Real-time Data
