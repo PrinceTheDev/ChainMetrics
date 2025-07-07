@@ -44,7 +44,7 @@
 ![Market Volume](assets/images/market_volume.png)
 
 ### 🔍 Detailed Analytics
-![Detailed Analytics](assets/images/detailed_metrics_.png)
+![Detailed Analytics](assets/images/detailed_metrics.png)
 
 
 ## 🏗️ Architecture
