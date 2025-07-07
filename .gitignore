@@ -1,4 +1,6 @@
-.envcmenv/
+cmenv/
 *.pyc
 __pycache__/
-*.pyc/
+.env
+*.so
+*.dylib
